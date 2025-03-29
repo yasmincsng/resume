@@ -68,14 +68,9 @@ body {
 
 /* Content Container */
 .content {
-    margin-left: 15%;
-    max-width: 85%;
-    padding: 20px;
-    box-sizing: border-box;
-    position: relative;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+    margin-left: 240px;
+    padding: 3rem;
+    min-height: 100vh;
 }
 
 .main-content-wrapper {
