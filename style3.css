@@ -168,6 +168,10 @@ h1 {
     box-shadow: 0px 4px 12px rgba(255, 102, 178, 0.5);
 }
 
+.main-section h3 {
+    color: #880e4f;
+}
+
 /* List Styles */
 ul.custom-list,
 ol.styled-list,
@@ -227,14 +231,15 @@ ul.hobbies-list {
 }
 /* Content Container */
 .content {
-    margin-left: 15%;
+    margin-left: 260px;
     padding: 20px;
     box-sizing: border-box;
     position: relative;
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center all content horizontally */
+    align-items: center;
+    min-height: 100vh;
 }
 
 .main-content-wrapper {
